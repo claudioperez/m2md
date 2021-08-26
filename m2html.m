@@ -487,9 +487,9 @@ for i=1:length(mfiles)
 end
 json_string = jsonencode(containers.Map({'items'},{json_data}));
 
-fid = fopen('.aurore/aurore.cache.json','wt');
-fprintf(fid, json_string);
-fclose(fid);
+%fid = fopen('.aurore/aurore.cache.json','wt');
+%fprintf(fid, json_string);
+%fclose(fid);
 %-------------------------------------------------------------------------------
 %% Setup the output directories
 %-------------------------------------------------------------------------------
